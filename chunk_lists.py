@@ -1,7 +1,5 @@
-# Method to chunk a  list into smaller lists of a specified size
-
-
 def chunk(lst, size):
+    """ Method to chunk a  list into smaller lists of a specified size """
     return [lst[i:i+size] for i in range(0, len(lst), size)]
 
 
